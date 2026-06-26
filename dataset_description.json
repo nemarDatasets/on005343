@@ -1,20 +1,26 @@
 {
-    "ReferencesAndLinks": [
-        "https://github.com/gaffreylab"
-    ],
-    "Authors": [
-        "Armen Bagdasarov",
-        "Michael S. Gaffrey"
-    ],
-    "Name": "Gaffrey Lab Infant Microstates and Attention",
-    "License": "CC0",
-    "BIDSVersion": "1.8.0",
-    "HEDVersion": "8.1.0",
-    "Funding": [
-        "Charles Lafitte Foundation"
-    ],
-    "EthicsApprovals": [
-        "All research was approved by the Duke University Health System Institutional Review Board."
-    ],
-    "DatasetDOI": "doi:10.18112/openneuro.ds005343.v1.0.0"
+  "ReferencesAndLinks": [
+    "https://github.com/gaffreylab"
+  ],
+  "Authors": [
+    "Armen Bagdasarov",
+    "Michael S. Gaffrey"
+  ],
+  "Name": "Gaffrey Lab Infant Microstates and Attention",
+  "License": "CC0",
+  "BIDSVersion": "1.8.0",
+  "HEDVersion": "8.1.0",
+  "Funding": [
+    "Charles Lafitte Foundation"
+  ],
+  "EthicsApprovals": [
+    "All research was approved by the Duke University Health System Institutional Review Board."
+  ],
+  "DatasetDOI": "10.82901/nemar.on005343",
+  "SourceDatasets": [
+    {
+      "DOI": "doi:10.18112/openneuro.ds005343.v1.0.0"
+    }
+  ],
+  "Version": "1.0.0"
 }
