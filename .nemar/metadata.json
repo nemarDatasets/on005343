@@ -2,18 +2,32 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "Gaffrey Lab Infant Microstates and Attention",
+  "description": "This dataset comprises EEG recordings from 43 infants aged 5-10 months during a passive viewing task involving relaxing videos with sound. The study investigates infant attention and microstate dynamics as part of a larger investigation into the effects of bias and discrimination on maternal health and infant neurodevelopment. EEG was recorded using a 128-channel geodesic sensor net while infants watched video stimuli presented with attention-grabbing cues.",
+  "methods_description": "EEG was recorded at 1000 Hz using a 128-channel HydroCel Geodesic Sensor Net referenced to vertex (Cz), with impedances maintained below 50 kΩ. Infants (N=43, aged 5-10 months) sat on caregiver's lap and viewed up to 15 minutes of relaxing videos (ten 90-second videos with breaks). Three-second attention-grabber videos preceded each stimulus presentation. Data collection was conducted in accordance with Duke University Health System IRB approval and the Declaration of Helsinki.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
     "Armen Bagdasarov": {},
     "Michael S. Gaffrey": {}
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds005343.v1.0.0",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "EEG"
     },
+    {
+      "term": "infant development"
+    },
+    {
+      "term": "attention"
+    },
+    {
+      "term": "microstates"
+    },
+    {
+      "term": "neurodevelopment"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on005343",
       "identifier_type": "URL",
@@ -28,6 +42,11 @@
       "identifier": "10.18112/openneuro.ds005343",
       "identifier_type": "DOI",
       "relation_type": "IsVersionOf"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds005343.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "funding_references": [
@@ -35,56 +54,20 @@
       "funder_name": "Charles Lafitte Foundation"
     }
   ],
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "28.5 GB (93 files)"
   ],
   "formats": [
     ".json",
     ".m",
     ".md",
     ".set",
-    ".tsv"
+    ".tsv",
+    ".yml"
   ],
-  "description": "This dataset comprises EEG recordings from 43 infants aged 5-10 months during a passive viewing task involving relaxing videos. The study investigates infant attention and brain microstates as part of a larger investigation into the effects of bias and discrimination on maternal health and infant neurodevelopment. High-density EEG was recorded using a 128-channel geodesic sensor net while infants watched video stimuli presented with attention-grabbing cues.",
-  "methods_description": "EEG was recorded at 1000 Hz using a 128-channel HydroCel Geodesic Sensor Net (Electrical Geodesics, Eugene, OR), referenced to vertex (Cz), with impedances maintained below 50 kΩ. Infants (n=43, aged 5-10 months) sat on caregiver's lap and viewed up to 15 minutes of relaxing videos (ten 90-second videos with breaks). Three-second attention-grabber videos preceded each stimulus. Videos were presented using E-Prime software.",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "attention"
-    },
-    {
-      "term": "microstates"
-    },
-    {
-      "term": "high-density EEG"
-    },
-    {
-      "term": "neurodevelopment"
-    },
-    {
-      "term": "passive viewing"
-    },
-    {
-      "term": "video stimulus"
-    },
-    {
-      "term": "Infant Development",
-      "subject_scheme": "MeSH"
-    },
-    {
-      "term": "Attention",
-      "subject_scheme": "MeSH"
-    },
-    {
-      "term": "Electroencephalography",
-      "subject_scheme": "MeSH"
-    }
-  ],
-  "source_hash": "ffd0830545e497449c32c5e29838b538dfc51abecf4ff0f23f5c6ebdb3aa6217"
+  "source_hash": "d8cac08daef92c18277453ac525ae5bbf7c8964e75ccb35ed1c2c5acec6144fd"
 }
