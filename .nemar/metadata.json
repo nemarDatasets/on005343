@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "Gaffrey Lab Infant Microstates and Attention",
-  "description": "This dataset comprises EEG recordings from 43 infants aged 5-10 months during a passive viewing task involving relaxing videos with sound. The study investigates infant attention and microstate dynamics as part of a larger investigation into the effects of bias and discrimination on maternal health and infant neurodevelopment. EEG was recorded using a 128-channel geodesic sensor net while infants watched video stimuli presented with attention-grabbing cues.",
-  "methods_description": "EEG was recorded at 1000 Hz using a 128-channel HydroCel Geodesic Sensor Net referenced to vertex (Cz), with impedances maintained below 50 kΩ. Infants (N=43, aged 5-10 months) sat on caregiver's lap and viewed up to 15 minutes of relaxing videos (ten 90-second videos with breaks). Three-second attention-grabber videos preceded each stimulus presentation. Data collection was conducted in accordance with Duke University Health System IRB approval and the Declaration of Helsinki.",
+  "description": "This dataset comprises EEG recordings from 43 infants aged 5-10 months during a passive viewing task involving relaxing videos with attention-grabbing cues. The study investigates infant neural microstates and attentional processes as part of a larger investigation into the effects of bias and discrimination on maternal health and infant neurodevelopment. High-density EEG was recorded using a 128-channel geodesic sensor net while infants watched video stimuli presented in controlled laboratory conditions.",
+  "methods_description": "EEG was recorded at 1000 Hz using a 128-channel HydroCel Geodesic Sensor Net (Electrical Geodesics, Eugene, OR), referenced to vertex (Cz), with impedances maintained below 50 kΩ. Participants (43 infants, 5-10 months old) sat on caregiver's lap and viewed up to 15 minutes of relaxing videos (ten 90-second videos with breaks). Attention-grabbing cues (3-second rattle videos) preceded each video. Stimuli were presented using E-Prime software.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -24,7 +24,28 @@
       "term": "microstates"
     },
     {
+      "term": "high-density EEG"
+    },
+    {
       "term": "neurodevelopment"
+    },
+    {
+      "term": "passive viewing"
+    },
+    {
+      "term": "video stimulus"
+    },
+    {
+      "term": "geodesic sensor net"
+    },
+    {
+      "term": "maternal health"
+    },
+    {
+      "term": "prenatal factors"
+    },
+    {
+      "term": "bias and discrimination"
     }
   ],
   "related_identifiers": [
