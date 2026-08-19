@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "Gaffrey Lab Infant Microstates and Attention",
-  "description": "This dataset comprises EEG recordings from 43 infants aged 5-10 months during a passive viewing task involving relaxing videos with attention-grabbing cues. The study investigates infant neural microstates and attentional processes as part of a larger investigation into the effects of bias and discrimination on maternal health and infant neurodevelopment. High-density EEG was recorded using a 128-channel geodesic sensor net while infants watched video stimuli presented in controlled laboratory conditions.",
-  "methods_description": "EEG was recorded at 1000 Hz using a 128-channel HydroCel Geodesic Sensor Net (Electrical Geodesics, Eugene, OR), referenced to vertex (Cz), with impedances maintained below 50 kΩ. Participants (43 infants, 5-10 months old) sat on caregiver's lap and viewed up to 15 minutes of relaxing videos (ten 90-second videos with breaks). Attention-grabbing cues (3-second rattle videos) preceded each video. Stimuli were presented using E-Prime software.",
+  "description": "This dataset comprises high-density EEG recordings from 43 infants aged 5-10 months, collected as part of a broader study on the impact of bias and discrimination on maternal and infant health outcomes. Infants viewed relaxing videos while EEG was recorded to examine microstates and attention-related neural dynamics during early development. The data were collected at Duke University with appropriate ethical oversight and informed caregiver consent.",
+  "methods_description": "EEG was recorded at 1000 Hz referenced to the vertex (Cz) using a 128-channel HydroCel Geodesic Sensor Net (Electrical Geodesics, Eugene, OR), with impedances kept below 50 kilohms. Infants sat on their caregiver's lap and watched up to 15 minutes of relaxing videos with sound (10, 90-second videos separated by breaks), presented via E-Prime software, preceded by a three-second attention-grabbing video clip.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -15,47 +15,30 @@
       "term": "EEG"
     },
     {
-      "term": "infant development"
+      "term": "Infant",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D007223"
     },
     {
-      "term": "attention"
+      "term": "Attention",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D001288"
     },
     {
       "term": "microstates"
     },
     {
-      "term": "high-density EEG"
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
     },
     {
-      "term": "neurodevelopment"
-    },
-    {
-      "term": "passive viewing"
-    },
-    {
-      "term": "video stimulus"
-    },
-    {
-      "term": "geodesic sensor net"
-    },
-    {
-      "term": "maternal health"
-    },
-    {
-      "term": "prenatal factors"
-    },
-    {
-      "term": "bias and discrimination"
+      "term": "infant development"
     }
   ],
   "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on005343",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on005343",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
     },
@@ -68,6 +51,11 @@
       "identifier": "10.18112/openneuro.ds005343.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on005343",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "funding_references": [
